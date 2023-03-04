@@ -90,7 +90,7 @@ ingress:
   annotations: {}
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: test-sx-podtato-route-sx-podtato.apps.cluster1.mcp.pitagora.at
+    - host: test-sx-podtato-sx-podtato.apps.cluster1.mcp.pitagora.at
       #paths: []
       paths: 
         - path: /
