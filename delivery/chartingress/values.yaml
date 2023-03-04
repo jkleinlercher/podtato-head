@@ -91,7 +91,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   hosts:
     - host: test-sx-podtato-sx-podtato.apps.cluster1.mcp.pitagora.at
-      paths: []
+      paths: ["/"]
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
