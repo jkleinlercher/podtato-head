@@ -39,17 +39,17 @@ leftArm:
   tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9003
-  env: []
-  #   - name: PODTATO_PART_NUMBER
-  #     value: "01"
+  env:
+    - name: PODTATO_PART_NUMBER
+      value: "02"
 rightLeg:
   repositoryBasename: right-leg
   tag: "v3-latest-dev"
   serviceType: ClusterIP
   servicePort: 9004
-  env: []
-  #   - name: PODTATO_PART_NUMBER
-  #     value: "01"
+  env:
+    - name: PODTATO_PART_NUMBER
+      value: "03"
 rightArm:
   repositoryBasename: right-arm
   tag: "latest"
