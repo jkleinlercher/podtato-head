@@ -36,7 +36,7 @@ leftLeg:
   #     value: "01"
 leftArm:
   repositoryBasename: left-arm
-  tag: "v2-latest-dev"
+  tag: "latest"
   serviceType: ClusterIP
   servicePort: 9003
   env:
@@ -44,7 +44,7 @@ leftArm:
       value: "02"
 rightLeg:
   repositoryBasename: right-leg
-  tag: "v3-latest-dev"
+  tag: "latest"
   serviceType: ClusterIP
   servicePort: 9004
   env:
